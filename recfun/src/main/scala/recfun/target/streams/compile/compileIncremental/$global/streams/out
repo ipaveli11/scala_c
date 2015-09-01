@@ -1,0 +1,53 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/pavel/scala/recfun/src/main/scala/recfun/Main.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/pavel/scala/recfun/src/main/scala/recfun/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/pavel/scala/recfun/src/main/scala/recfun/Main.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/pavel/scala/recfun/src/main/scala/recfun/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 194e662, interfacing (CompilerInterface) with Scala compiler version 2.10.5[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes:/home/pavel/.sbt/boot/scala-2.10.5/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/pavel/scala/recfun/src/main/scala/recfun/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/pavel/scala/recfun/src/main/scala/recfun/Main.scala:2: not found: object common[0m
+[0m[[31merror[0m] [0mimport common._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/pavel/scala/recfun/src/main/scala/recfun/Main.scala:19: value result is not a member of object Int[0m
+[0m[[31merror[0m] [0m        Int result;[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/home/pavel/scala/recfun/src/main/scala/recfun/Main.scala:21: not found: value or[0m
+[0m[[31merror[0m] [0m        if (c == 1) or (c == r)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[33mwarn[0m] [0m/home/pavel/scala/recfun/src/main/scala/recfun/Main.scala:22: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[33mwarn[0m] [0m            return 1;[0m
+[0m[[33mwarn[0m] [0m                   ^[0m
+[0m[[33mwarn[0m] [0m/home/pavel/scala/recfun/src/main/scala/recfun/Main.scala:22: enclosing method pascal has result type Unit: return value discarded[0m
+[0m[[33mwarn[0m] [0m            return 1;[0m
+[0m[[33mwarn[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/home/pavel/scala/recfun/src/main/scala/recfun/Main.scala:23: not found: value result[0m
+[0m[[31merror[0m] [0m        result = pascal(c - 1, r - 1) + pascal (c-1, r);[0m
+[0m[[31merror[0m] [0m        ^[0m
+[0m[[31merror[0m] [0m/home/pavel/scala/recfun/src/main/scala/recfun/Main.scala:24: not found: value result[0m
+[0m[[31merror[0m] [0m        return result;[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[33mwarn[0m] [0m/home/pavel/scala/recfun/src/main/scala/recfun/Main.scala:24: enclosing method pascal has result type Unit: return value discarded[0m
+[0m[[33mwarn[0m] [0m        return result;[0m
+[0m[[33mwarn[0m] [0m        ^[0m
+[0m[[33mwarn[0m] [0mthree warnings found[0m
+[0m[[31merror[0m] [0m5 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
